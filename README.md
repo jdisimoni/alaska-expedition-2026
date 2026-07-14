@@ -1,54 +1,39 @@
-Jay’s Alaska Adventure 2026
+# Jay's Alaska Adventure 2026
 
-Virgin Voyages Brilliant Lady | July 15–23, 2026
+A polished GitHub Pages travel site for Jay's July 15–23, 2026 Alaska adventure aboard Virgin Voyages' Brilliant Lady.
 
-Tomorrow begins my first Alaska cruise—and my first attempt at documenting an entire trip through photography, video and a daily travel journal.
+## Publish with GitHub Pages
 
-I’ll be traveling from Texas to Seattle before boarding Virgin Voyages’ Brilliant Lady for an Inside Passage itinerary featuring Ketchikan, Sitka, Dawes Glacier and Prince Rupert. I’ll also be traveling with Vegas Matt and his group, which should make this an especially memorable adventure.
+1. Create or open the repository `alaska-adventure-2026`.
+2. Upload the contents of this folder to the repository root.
+3. In GitHub, open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)`, then click **Save**.
+6. The site will publish at:
 
-Follow the Journey
+   `https://jdisimoni.github.io/alaska-adventure-2026/`
 
-I’ll update this repository throughout the trip whenever connectivity permits.
+## Daily update workflow
 
-Each daily update may include:
+Edit `assets/script.js` and update the `updates` array. Replace a “Coming soon” card with the day’s:
 
-* Where we traveled
-* The day’s highlights
-* Wildlife sightings
-* Favorite meal
-* Favorite photo
-* A short journal reflection
-* What is coming next
+- Favorite photo or moment
+- Three highlights
+- Favorite meal
+- Wildlife sighting
+- One funny or unexpected detail
+- Tomorrow’s destination
 
-Trip Schedule
+For photographs, create `assets/photos/`, upload optimized JPG files, and add image markup to a daily card or dedicated page.
 
-Date	Destination
-July 15	Travel to Seattle
-July 16	Board Brilliant Lady and sail from Seattle
-July 17	Inside Passage
-July 18	Ketchikan
-July 19	Sitka
-July 20	Endicott Arm and Dawes Glacier
-July 21	Prince Rupert
-July 22	Final sea day
-July 23	Return to Seattle and travel home
+## Privacy
 
-The Camera Kit
+Do not publish:
 
-I’ll be documenting the journey using an iPhone, an action camera, Meta Oakley smart glasses and an Apple Watch. My goal is to capture not only the scenery, but also the small candid moments that make the trip memorable.
-
-Daily Updates
-
-* Day 0 – Texas to Seattle
-* Day 1 – Embarkation and sail away
-* Day 2 – Inside Passage
-* Day 3 – Ketchikan
-* Day 4 – Sitka
-* Day 5 – Dawes Glacier
-* Day 6 – Prince Rupert
-* Day 7 – Final sea day
-* Day 8 – Seattle and home
-
-Updates may be delayed while the ship is outside reliable internet coverage. For safety and privacy, posts will not include precise real-time locations, room information or travel confirmation details.
-
-Thanks for following along!
+- Cabin number
+- Boarding passes
+- Confirmation numbers
+- Passport or ID images
+- Hotel room number
+- Exact real-time location
+- QR codes, luggage tags, or room keys

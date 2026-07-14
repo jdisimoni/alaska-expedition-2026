@@ -1,1 +1,129 @@
-<!doctype html><html><head><title>Jay's Alaska Expedition</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a43"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body><header><div class="container"><span class="badge">Virgin Voyages • Brilliant Lady</span><h1>Jay's Alaska Expedition</h1><div class="subtitle">Inside Passage & Glacial Fjords • July 16–23, 2026</div><nav><a href="index.html">Home</a><a href="itinerary.html">Itinerary</a><a href="camera.html">Camera</a><a href="wildlife.html">Wildlife</a><a href="packing.html">Packing</a></nav></div></header><main class="container"><div class="tip"><strong>Cabin:</strong> 13314Z · <strong>Primary camera:</strong> iPhone 17 Pro Max · <strong>Watch:</strong> Apple Watch Ultra 2</div><div class="grid"><a class="card" href="itinerary.html"><h3>🗓 Itinerary</h3><p>Ports, events, dinners, and daily photo missions.</p></a><a class="card" href="camera.html"><h3>📷 Camera Cheat Sheet</h3><p>Fast settings for glaciers, wildlife, people, and video.</p></a><a class="card" href="wildlife.html"><h3>🐋 Wildlife Guide</h3><p>What to look for and how to photograph it.</p></a><a class="card" href="packing.html"><h3>🎒 Packing Checklist</h3><p>Gear, clothing, charging, and excursion essentials.</p></a></div><h2>Today’s operating rule</h2><p>Clean the lens, keep clips short, use the 5× lens for wildlife, and underexpose bright ice slightly.</p></main><footer>Prepared for Jay Disimoni · Alaska 2026</footer><script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Follow Jay's over-the-top Alaska adventure aboard Virgin Voyages Brilliant Lady." />
+  <title>Jay's Alaska Adventure 2026</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="aurora aurora-one"></div>
+  <div class="aurora aurora-two"></div>
+
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top">JAY // ALASKA 2026</a>
+      <div class="nav-links">
+        <a href="#journey">Journey</a>
+        <a href="#updates">Daily Log</a>
+        <a href="#wildlife">Wildlife</a>
+        <a href="#gear">Gear</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">VIRGIN VOYAGES • BRILLIANT LADY • JULY 15–23, 2026</p>
+      <h1>THE<br><span>ALASKA</span><br>ADVENTURE</h1>
+      <p class="hero-copy">
+        One first cruise. Eight unforgettable days. Glaciers, wildlife, food,
+        candid moments, and enough technology to document absolutely everything.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#updates">Follow the journey</a>
+        <a class="button secondary" href="#journey">See the route</a>
+      </div>
+      <div class="status-card">
+        <span class="pulse"></span>
+        <div>
+          <small>TRIP STATUS</small>
+          <strong id="trip-status">Adventure loading…</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div><strong>8</strong><span>Days</span></div>
+      <div><strong>4</strong><span>Ports & scenic days</span></div>
+      <div><strong>∞</strong><span>Memories</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div class="section-heading">
+        <p class="eyebrow">THE MISSION</p>
+        <h2>Make the trip feel as big as it actually is.</h2>
+      </div>
+      <p class="large-copy">
+        This site is the live companion to Jay's Alaska travel journal.
+        It will grow throughout the trip with photos, daily highlights,
+        wildlife sightings, favorite meals, unforgettable moments, and the
+        occasional piece of chaos.
+      </p>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">THE ROUTE</p>
+        <h2>Eight days. One spectacular northern story.</h2>
+      </div>
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <section class="section" id="updates">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">DAILY LOG</p>
+          <h2>Dispatches from the adventure.</h2>
+        </div>
+        <p>Updates may post after the ship regains connectivity. No precise real-time location or private travel details will be shared.</p>
+      </div>
+      <div id="update-grid" class="card-grid"></div>
+    </section>
+
+    <section class="section feature-grid">
+      <article class="feature-card glacier">
+        <p class="eyebrow">SIGNATURE MOMENT</p>
+        <h3>Dawes Glacier</h3>
+        <p>The visual centerpiece of the voyage—and likely the moment that fills the camera roll.</p>
+      </article>
+      <article class="feature-card vegas">
+        <p class="eyebrow">SPECIAL GUEST ENERGY</p>
+        <h3>Vegas Matt & Team</h3>
+        <p>A favorite creator, an Alaska sailing, and plenty of opportunities for memorable moments.</p>
+      </article>
+    </section>
+
+    <section class="section" id="wildlife">
+      <div class="section-heading">
+        <p class="eyebrow">WILDLIFE WATCH</p>
+        <h2>The unofficial Alaska sighting board.</h2>
+      </div>
+      <div id="wildlife-grid" class="wildlife-grid"></div>
+    </section>
+
+    <section class="section" id="gear">
+      <div class="section-heading">
+        <p class="eyebrow">THE TECH LOADOUT</p>
+        <h2>Because one camera would be far too reasonable.</h2>
+      </div>
+      <div id="gear-grid" class="gear-grid"></div>
+    </section>
+
+    <section class="section quote-section">
+      <blockquote>
+        “Take the photo. Record the reaction. Write down the moment.
+        Future Jay will be glad you did.”
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for Jay's Alaska Adventure • 2026</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
