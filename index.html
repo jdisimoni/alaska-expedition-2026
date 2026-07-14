@@ -1,117 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Follow Jay's over-the-top Alaska adventure aboard Virgin Voyages Brilliant Lady." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061820">
+  <meta name="description" content="Follow Jay's Alaska adventure aboard Virgin Voyages Brilliant Lady.">
   <title>Jay's Alaska Adventure 2026</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <div class="aurora aurora-one"></div>
-  <div class="aurora aurora-two"></div>
+  <div class="noise"></div>
+  <div class="aurora aurora-a"></div>
+  <div class="aurora aurora-b"></div>
 
-  <header class="hero" id="top">
-    <nav class="nav">
-      <a class="brand" href="#top">JAY // ALASKA 2026</a>
-      <div class="nav-links">
-        <a href="#journey">Journey</a>
-        <a href="#updates">Daily Log</a>
+  <header class="hero" id="home">
+    <nav class="nav shell">
+      <a class="brand" href="#home" aria-label="Jay's Alaska Adventure home">
+        <span class="brand-mark">JA</span>
+        <span>JAY // ALASKA 2026</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#route">Route</a>
+        <a href="#journal">Journal</a>
+        <a href="#gallery">Gallery</a>
         <a href="#wildlife">Wildlife</a>
         <a href="#gear">Gear</a>
       </div>
     </nav>
 
-    <div class="hero-content">
-      <p class="eyebrow">VIRGIN VOYAGES • BRILLIANT LADY • JULY 15–23, 2026</p>
-      <h1>THE<br><span>ALASKA</span><br>ADVENTURE</h1>
-      <p class="hero-copy">
-        One first cruise. Eight unforgettable days. Glaciers, wildlife, food,
-        candid moments, and enough technology to document absolutely everything.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="#updates">Follow the journey</a>
-        <a class="button secondary" href="#journey">See the route</a>
-      </div>
-      <div class="status-card">
-        <span class="pulse"></span>
-        <div>
-          <small>TRIP STATUS</small>
-          <strong id="trip-status">Adventure loading…</strong>
+    <div class="hero-grid shell">
+      <div class="hero-copy">
+        <p class="kicker">VIRGIN VOYAGES • BRILLIANT LADY • JULY 15–23, 2026</p>
+        <h1>
+          <span>THE</span>
+          <span class="outline">ALASKA</span>
+          <span>ADVENTURE</span>
+        </h1>
+        <p class="lede">
+          One first cruise. Eight unforgettable days. Glaciers, wildlife, food,
+          candid moments, and enough technology to document absolutely everything.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#journal">Follow the journey</a>
+          <a class="btn ghost" href="#route">Explore the route</a>
+        </div>
+        <div class="status-pill">
+          <span class="live-dot"></span>
+          <div>
+            <small>TRIP STATUS</small>
+            <strong id="trip-status">Preparing for departure</strong>
+          </div>
         </div>
       </div>
+
+      <aside class="hero-dashboard glass">
+        <div class="dashboard-header">
+          <span>TRIP CONTROL</span>
+          <span class="chip">LIVE</span>
+        </div>
+        <div class="progress-ring-wrap">
+          <div class="progress-ring" id="progress-ring">
+            <div class="progress-inner">
+              <strong id="progress-percent">0%</strong>
+              <span>complete</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-stats">
+          <div><strong id="days-complete">0</strong><span>days complete</span></div>
+          <div><strong id="ports-complete">0</strong><span>ports visited</span></div>
+          <div><strong id="photos-count">0</strong><span>photos logged</span></div>
+          <div><strong id="wildlife-count">0</strong><span>sightings</span></div>
+        </div>
+      </aside>
     </div>
 
-    <div class="hero-stats">
+    <div class="hero-bottom shell">
       <div><strong>8</strong><span>Days</span></div>
-      <div><strong>4</strong><span>Ports & scenic days</span></div>
+      <div><strong>4</strong><span>Major stops</span></div>
+      <div><strong>1</strong><span>First cruise</span></div>
       <div><strong>∞</strong><span>Memories</span></div>
     </div>
   </header>
 
   <main>
-    <section class="section intro">
-      <div class="section-heading">
-        <p class="eyebrow">THE MISSION</p>
+    <section class="section shell intro">
+      <div>
+        <p class="kicker">THE MISSION</p>
         <h2>Make the trip feel as big as it actually is.</h2>
       </div>
-      <p class="large-copy">
-        This site is the live companion to Jay's Alaska travel journal.
-        It will grow throughout the trip with photos, daily highlights,
-        wildlife sightings, favorite meals, unforgettable moments, and the
-        occasional piece of chaos.
+      <p class="intro-copy">
+        This site is the live companion to Jay's Alaska travel journal. It grows
+        throughout the trip with photos, videos, daily highlights, wildlife sightings,
+        favorite meals, unforgettable moments, and the occasional piece of chaos.
       </p>
     </section>
 
-    <section class="section" id="journey">
-      <div class="section-heading">
-        <p class="eyebrow">THE ROUTE</p>
-        <h2>Eight days. One spectacular northern story.</h2>
+    <section class="section route-section" id="route">
+      <div class="shell">
+        <div class="section-head split">
+          <div>
+            <p class="kicker">THE ROUTE</p>
+            <h2>Seattle to the edge of the ice.</h2>
+          </div>
+          <p>Each destination activates as the journey unfolds. The map is intentionally delayed rather than showing a precise real-time location.</p>
+        </div>
+
+        <div class="route-layout">
+          <div class="map-card glass">
+            <svg viewBox="0 0 800 620" role="img" aria-labelledby="map-title">
+              <title id="map-title">Stylized map of Jay's Alaska cruise route</title>
+              <defs>
+                <linearGradient id="ocean" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#0a2b38"/>
+                  <stop offset="100%" stop-color="#071820"/>
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="5" result="blur"/>
+                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+              </defs>
+              <rect width="800" height="620" rx="28" fill="url(#ocean)"/>
+              <path d="M115 540 C210 492, 260 425, 320 365 C390 295, 455 245, 548 210 C622 182, 680 150, 720 82"
+                    fill="none" stroke="#6fe6ff" stroke-width="5" stroke-linecap="round"
+                    stroke-dasharray="10 14" opacity=".9" filter="url(#glow)"/>
+              <path d="M80 600 L80 420 L150 385 L184 320 L235 300 L260 240 L320 214 L368 150 L430 120 L505 78 L620 55 L800 0 L800 620 Z"
+                    fill="#0e3944" opacity=".86"/>
+              <path d="M520 620 L520 505 L570 470 L604 418 L650 390 L684 320 L735 270 L800 240 L800 620 Z"
+                    fill="#143f49" opacity=".68"/>
+              <g class="map-stop" data-day="0"><circle cx="118" cy="538" r="14"/><text x="145" y="545">Seattle</text></g>
+              <g class="map-stop" data-day="3"><circle cx="325" cy="360" r="14"/><text x="350" y="367">Ketchikan</text></g>
+              <g class="map-stop" data-day="4"><circle cx="455" cy="248" r="14"/><text x="480" y="255">Sitka</text></g>
+              <g class="map-stop" data-day="5"><circle cx="580" cy="190" r="14"/><text x="605" y="197">Dawes Glacier</text></g>
+              <g class="map-stop" data-day="6"><circle cx="700" cy="108" r="14"/><text x="568" y="115">Prince Rupert</text></g>
+              <g class="ship" id="ship-marker"><text x="100" y="520">🚢</text></g>
+            </svg>
+          </div>
+
+          <div class="timeline" id="timeline"></div>
+        </div>
       </div>
-      <div id="timeline" class="timeline"></div>
     </section>
 
-    <section class="section" id="updates">
-      <div class="section-heading split">
+    <section class="section shell" id="journal">
+      <div class="section-head split">
         <div>
-          <p class="eyebrow">DAILY LOG</p>
+          <p class="kicker">DAILY JOURNAL</p>
           <h2>Dispatches from the adventure.</h2>
         </div>
-        <p>Updates may post after the ship regains connectivity. No precise real-time location or private travel details will be shared.</p>
+        <p>Each entry can include photos, videos, favorite meals, wildlife sightings, and one thing worth remembering forever.</p>
       </div>
-      <div id="update-grid" class="card-grid"></div>
+      <div class="journal-grid" id="journal-grid"></div>
     </section>
 
-    <section class="section feature-grid">
-      <article class="feature-card glacier">
-        <p class="eyebrow">SIGNATURE MOMENT</p>
-        <h3>Dawes Glacier</h3>
-        <p>The visual centerpiece of the voyage—and likely the moment that fills the camera roll.</p>
-      </article>
-      <article class="feature-card vegas">
-        <p class="eyebrow">SPECIAL GUEST ENERGY</p>
-        <h3>Vegas Matt & Team</h3>
-        <p>A favorite creator, an Alaska sailing, and plenty of opportunities for memorable moments.</p>
-      </article>
-    </section>
-
-    <section class="section" id="wildlife">
-      <div class="section-heading">
-        <p class="eyebrow">WILDLIFE WATCH</p>
-        <h2>The unofficial Alaska sighting board.</h2>
+    <section class="section gallery-section" id="gallery">
+      <div class="shell">
+        <div class="section-head">
+          <p class="kicker">PHOTO & VIDEO WALL</p>
+          <h2>The best frames from the journey.</h2>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <article class="gallery-card feature-photo">
+            <div class="placeholder-art glacier-art"></div>
+            <div class="gallery-caption"><span>Signature moment</span><strong>Dawes Glacier</strong></div>
+          </article>
+          <article class="gallery-card">
+            <div class="placeholder-art whale-art"></div>
+            <div class="gallery-caption"><span>Wildlife watch</span><strong>Whale sighting</strong></div>
+          </article>
+          <article class="gallery-card">
+            <div class="placeholder-art ship-art"></div>
+            <div class="gallery-caption"><span>On board</span><strong>Brilliant Lady</strong></div>
+          </article>
+          <article class="gallery-card">
+            <div class="placeholder-art port-art"></div>
+            <div class="gallery-caption"><span>Port day</span><strong>Ketchikan color</strong></div>
+          </article>
+          <article class="gallery-card video-card">
+            <div class="video-icon">▶</div>
+            <div class="gallery-caption"><span>Video diary</span><strong>Daily highlight reel</strong></div>
+          </article>
+        </div>
       </div>
-      <div id="wildlife-grid" class="wildlife-grid"></div>
     </section>
 
-    <section class="section" id="gear">
-      <div class="section-heading">
-        <p class="eyebrow">THE TECH LOADOUT</p>
+    <section class="section shell" id="wildlife">
+      <div class="section-head split">
+        <div>
+          <p class="kicker">WILDLIFE WATCH</p>
+          <h2>The unofficial Alaska sighting board.</h2>
+        </div>
+        <p>Cards light up as sightings are added to the site data file.</p>
+      </div>
+      <div class="wildlife-grid" id="wildlife-grid"></div>
+    </section>
+
+    <section class="section feature-band">
+      <div class="shell feature-band-grid">
+        <article class="feature-story glacier-story">
+          <p class="kicker">SIGNATURE MOMENT</p>
+          <h3>Dawes Glacier</h3>
+          <p>The visual centerpiece of the voyage—ice, scale, silence, and the frame that may define the entire trip.</p>
+        </article>
+        <article class="feature-story vegas-story">
+          <p class="kicker">SPECIAL GUEST ENERGY</p>
+          <h3>Vegas Matt & Team</h3>
+          <p>A favorite creator, an Alaska sailing, and enough personality to guarantee memorable moments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="gear">
+      <div class="section-head">
+        <p class="kicker">THE TECH LOADOUT</p>
         <h2>Because one camera would be far too reasonable.</h2>
       </div>
-      <div id="gear-grid" class="gear-grid"></div>
+      <div class="gear-grid" id="gear-grid"></div>
     </section>
 
-    <section class="section quote-section">
+    <section class="section shell quote-section">
       <blockquote>
         “Take the photo. Record the reaction. Write down the moment.
         Future Jay will be glad you did.”
@@ -119,11 +230,15 @@
     </section>
   </main>
 
-  <footer>
-    <p>Built for Jay's Alaska Adventure • 2026</p>
-    <a href="#top">Back to top ↑</a>
+  <footer class="footer shell">
+    <div>
+      <strong>JAY // ALASKA 2026</strong>
+      <p>Built as a live travel journal for friends, coworkers, and future memories.</p>
+    </div>
+    <a href="#home">Back to top ↑</a>
   </footer>
 
+  <script src="assets/data.js"></script>
   <script src="assets/script.js"></script>
 </body>
 </html>

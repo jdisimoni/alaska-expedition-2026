@@ -3,27 +3,33 @@
 **Date:** July XX, 2026  
 **Status:** Draft / Published
 
-## The headline
+## Headline
 
 One sentence that captures the day.
 
 ## Top three moments
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
-## Favorite photo
+## Favorite photo or video
 
-Add a web-sized image to `assets/photos/` and link it here.
+Filename:
+
+Caption:
 
 ## Favorite meal
 
-Restaurant, dish, and one-sentence review.
+Restaurant:
+
+Dish:
+
+Review:
 
 ## Wildlife sightings
 
-- 
+-
 
 ## Funniest or most unexpected moment
 

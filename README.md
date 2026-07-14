@@ -1,39 +1,128 @@
-# Jay's Alaska Adventure 2026
+# Jay's Alaska Adventure — Premium GitHub Pages Site
 
-A polished GitHub Pages travel site for Jay's July 15–23, 2026 Alaska adventure aboard Virgin Voyages' Brilliant Lady.
+This package replaces the old travel site with a premium, mobile-friendly experience.
 
-## Publish with GitHub Pages
+## Before uploading
 
-1. Create or open the repository `alaska-adventure-2026`.
-2. Upload the contents of this folder to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then click **Save**.
-6. The site will publish at:
+Delete the old site files from the repository root:
 
-   `https://jdisimoni.github.io/alaska-adventure-2026/`
+- `camera.html`
+- `itinerary.html`
+- `packing.html`
+- `wildlife.html`
+- `styles.css`
+- `manifest.webmanifest`
+- `sw.js`
+- `icon.svg`
 
-## Daily update workflow
+Keep GitHub configuration files if present.
 
-Edit `assets/script.js` and update the `updates` array. Replace a “Coming soon” card with the day’s:
+## Upload these files to the repository root
 
-- Favorite photo or moment
-- Three highlights
-- Favorite meal
-- Wildlife sighting
-- One funny or unexpected detail
-- Tomorrow’s destination
+- `index.html`
+- `README.md`
+- `.nojekyll`
+- `assets/`
+- `daily-updates/`
 
-For photographs, create `assets/photos/`, upload optimized JPG files, and add image markup to a daily card or dedicated page.
+The repository root must show `index.html` directly. Do not upload the enclosing folder.
 
-## Privacy
+## GitHub Pages setting
 
-Do not publish:
+Open **Settings → Pages**:
 
-- Cabin number
-- Boarding passes
-- Confirmation numbers
-- Passport or ID images
-- Hotel room number
-- Exact real-time location
-- QR codes, luggage tags, or room keys
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/ (root)`
+
+## Updating during the trip
+
+Most updates only require editing:
+
+`assets/data.js`
+
+### Trip stats
+
+Update:
+
+```js
+stats: {
+  photos: 245,
+  wildlifeSightings: 3
+}
+```
+
+### Force the displayed trip day
+
+Normally the site calculates the day automatically. To override it:
+
+```js
+currentDayOverride: 3
+```
+
+Set it back to `null` for automatic behavior.
+
+### Publish a journal card
+
+Change a card from:
+
+```js
+status: "pending"
+```
+
+to:
+
+```js
+status: "published"
+```
+
+Then replace its title, copy, and tags.
+
+### Mark wildlife as spotted
+
+Change:
+
+```js
+seen: false
+```
+
+to:
+
+```js
+seen: true
+```
+
+## Add real photos
+
+Put optimized JPG or WebP files in:
+
+`assets/photos/`
+
+Then replace a placeholder art block in `index.html` with:
+
+```html
+<img src="assets/photos/your-photo.jpg" alt="Description of the photo">
+```
+
+Add this to `assets/styles.css` if needed:
+
+```css
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+```
+
+## Important cache fix
+
+The old site used `sw.js`, a service worker. Delete it from GitHub.
+
+After publishing, open the site in an incognito window. If the old site still appears:
+
+1. Open Chrome DevTools
+2. Go to **Application**
+3. Select **Service Workers**
+4. Click **Unregister**
+5. Select **Storage**
+6. Click **Clear site data**
