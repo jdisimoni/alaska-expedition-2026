@@ -5,7 +5,17 @@ window.TRIP_DATA = {
   currentDayOverride: null,
   stats: {
     photos: 0,
+    videos: 0,
+    milesTraveled: 0,
     wildlifeSightings: 0
+  },
+  featured: {
+    label: "PRE-TRIP",
+    title: "The adventure is ready to begin",
+    caption: "Bags packed, cameras charged, and Alaska just one sleep away.",
+    location: "Fort Worth → Seattle",
+    camera: "iPhone 17 Pro Max",
+    image: ""
   },
   itinerary: [
     {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Early flight, Seattle arrival, Populus check-in, and the first official travel journal entry."},

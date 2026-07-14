@@ -126,3 +126,25 @@ After publishing, open the site in an incognito window. If the old site still ap
 4. Click **Unregister**
 5. Select **Storage**
 6. Click **Clear site data**
+
+
+## The easiest iPhone workflow
+
+You do not need to edit the website during the trip.
+
+Each evening, send ChatGPT:
+
+1. Your favorite photos
+2. The day's destination
+3. Three highlights
+4. Favorite meal
+5. Wildlife sightings
+6. Funniest or most unexpected moment
+7. Approximate photo/video count
+8. Anything you want coworkers to know
+
+ChatGPT prepares the polished journal entry, captions, featured image, updated route, wildlife tracker, statistics, and replacement site files.
+
+## Share with coworkers and leadership
+
+The site includes a native Share button. On iPhone, it opens the iOS share sheet so the site can be shared through Messages, Mail, Teams, or other installed apps.

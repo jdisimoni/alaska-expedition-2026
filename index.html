@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#061820">
   <meta name="description" content="Follow Jay's Alaska adventure aboard Virgin Voyages Brilliant Lady.">
+  <meta property="og:title" content="Jay's Alaska Adventure 2026">
+  <meta property="og:description" content="A live professional travel journal featuring daily stories, photography, wildlife, and the journey aboard Brilliant Lady.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Jay's Alaska Adventure 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=2">
+  <link rel="stylesheet" href="assets/styles.css?v=10">
 </head>
 <body>
   <div class="noise"></div>
@@ -75,6 +79,8 @@
           <div><strong id="ports-complete">0</strong><span>ports visited</span></div>
           <div><strong id="photos-count">0</strong><span>photos logged</span></div>
           <div><strong id="wildlife-count">0</strong><span>sightings</span></div>
+          <div><strong id="videos-count">0</strong><span>videos logged</span></div>
+          <div><strong id="miles-count">0</strong><span>miles traveled</span></div>
         </div>
       </aside>
     </div>
@@ -144,6 +150,31 @@
           <div class="timeline" id="timeline"></div>
         </div>
       </div>
+    </section>
+
+
+    <section class="section shell" id="featured">
+      <div class="section-head split">
+        <div>
+          <p class="kicker">PHOTO OF THE DAY</p>
+          <h2>The frame that tells today’s story.</h2>
+        </div>
+        <p id="featured-summary">The featured image and caption will update as the journey unfolds.</p>
+      </div>
+      <article class="featured-day glass">
+        <div class="featured-media" id="featured-media">
+          <div class="featured-placeholder">TODAY’S BEST FRAME</div>
+        </div>
+        <div class="featured-copy">
+          <span class="featured-label" id="featured-label">PRE-TRIP</span>
+          <h3 id="featured-title">The adventure is ready to begin</h3>
+          <p id="featured-caption">Bags packed, cameras charged, and Alaska just one sleep away.</p>
+          <div class="featured-meta">
+            <span id="featured-location">Fort Worth → Seattle</span>
+            <span id="featured-camera">iPhone 17 Pro Max</span>
+          </div>
+        </div>
+      </article>
     </section>
 
     <section class="section shell" id="journal">
@@ -230,6 +261,18 @@
     </section>
   </main>
 
+
+    <section class="section shell share-section">
+      <div class="share-card glass">
+        <div>
+          <p class="kicker">SHARE THE JOURNEY</p>
+          <h2>A travel journal built to be followed.</h2>
+          <p>Send this site to coworkers, friends, and family. New entries will appear as connectivity allows.</p>
+        </div>
+        <button class="btn primary" id="share-site">Share this site</button>
+      </div>
+    </section>
+
   <footer class="footer shell">
     <div>
       <strong>JAY // ALASKA 2026</strong>
@@ -238,20 +281,24 @@
     <a href="#home">Back to top ↑</a>
   </footer>
 
-  <script src="assets/data.js?v=2"></script>
-  <script src="assets/script.js?v=2"></script>
-  <script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.getRegistrations().then((registrations) => {
-      registrations.forEach((registration) => registration.unregister());
-    });
-  }
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+    <img id="lightbox-image" alt="">
+    <p id="lightbox-caption"></p>
+  </div>
 
-  if ("caches" in window) {
-    caches.keys().then((cacheNames) => {
-      cacheNames.forEach((cacheName) => caches.delete(cacheName));
-    });
-  }
-</script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        registrations.forEach(registration => registration.unregister());
+      });
+    }
+    if ("caches" in window) {
+      caches.keys().then(names => names.forEach(name => caches.delete(name)));
+    }
+  </script>
+
+  <script src="assets/data.js?v=10"></script>
+  <script src="assets/script.js?v=10"></script>
 </body>
 </html>

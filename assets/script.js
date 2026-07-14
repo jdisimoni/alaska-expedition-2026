@@ -83,3 +83,64 @@ toggle.addEventListener("click", () => {
   toggle.setAttribute("aria-expanded", String(open));
 });
 links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
+
+// Featured photo of the day
+const F = D.featured || {};
+document.getElementById("featured-label").textContent = F.label || "";
+document.getElementById("featured-title").textContent = F.title || "";
+document.getElementById("featured-caption").textContent = F.caption || "";
+document.getElementById("featured-location").textContent = F.location || "";
+document.getElementById("featured-camera").textContent = F.camera || "";
+if (F.image) {
+  const media = document.getElementById("featured-media");
+  media.innerHTML = `<img src="${F.image}" alt="${F.caption || F.title || 'Featured travel photo'}">`;
+}
+document.getElementById("videos-count").textContent = D.stats.videos || 0;
+document.getElementById("miles-count").textContent = D.stats.milesTraveled || 0;
+
+document.getElementById("share-site").addEventListener("click", async () => {
+  const shareData = {title: document.title, text: "Follow Jay's Alaska Adventure 2026", url: window.location.href};
+  if (navigator.share) {
+    try { await navigator.share(shareData); } catch (e) {}
+  } else {
+    await navigator.clipboard.writeText(window.location.href);
+    const button = document.getElementById("share-site");
+    const original = button.textContent;
+    button.textContent = "Link copied";
+    setTimeout(() => button.textContent = original, 1800);
+  }
+});
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const lightboxCaption = document.getElementById("lightbox-caption");
+function openLightbox(src, caption) {
+  lightboxImage.src = src;
+  lightboxImage.alt = caption || "Travel photograph";
+  lightboxCaption.textContent = caption || "";
+  lightbox.classList.add("open");
+  lightbox.setAttribute("aria-hidden", "false");
+}
+document.addEventListener("click", event => {
+  const img = event.target.closest(".gallery-card img, .featured-media img");
+  if (img) openLightbox(img.src, img.alt);
+});
+document.getElementById("lightbox-close").addEventListener("click", () => {
+  lightbox.classList.remove("open");
+  lightbox.setAttribute("aria-hidden", "true");
+});
+lightbox.addEventListener("click", event => {
+  if (event.target === lightbox) {
+    lightbox.classList.remove("open");
+    lightbox.setAttribute("aria-hidden", "true");
+  }
+});
+
+const revealItems = document.querySelectorAll(".journal-card, .wildlife-card, .gear-card, .gallery-card, .feature-story");
+revealItems.forEach(item => item.classList.add("reveal"));
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add("visible");
+  });
+}, {threshold: .12});
+revealItems.forEach(item => observer.observe(item));
