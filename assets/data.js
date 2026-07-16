@@ -9,7 +9,7 @@ window.TRIP_DATA = {
     caption: "Mount Rainier appeared outside the airplane window in brilliant morning light—the perfect first landmark of the adventure.",
     location: "Approaching Seattle, Washington",
     camera: "iPhone 17 Pro Max",
-    image: "assets/day-0/mount-rainier.jpg"
+    image: "assets/photos/mount-rainier.jpg"
   },
   itinerary: [
     {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Easy flight, a great first-class breakfast, Mount Rainier from the air, Link light rail, and hotel check-in."},
@@ -34,14 +34,14 @@ window.TRIP_DATA = {
     {meta:"DAY 4–8",title:"The story continues",copy:"Sitka, Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
   ],
   gallery: [
-    {image:"assets/day-0/mount-rainier.jpg", eyebrow:"Photo of the day", title:"Mount Rainier from the air", feature:true},
-    {image:"assets/day-0/ziggy-luggage.jpg", eyebrow:"Departure committee", title:"Ziggy’s final luggage inspection"},
-    {image:"assets/day-0/first-class-breakfast.jpg", eyebrow:"Alaska Airlines", title:"First-class breakfast"},
-    {image:"assets/day-0/link-light-rail.jpg", eyebrow:"Seattle arrival", title:"Link light rail into the city"},
-    {image:"assets/day-0/hotel-lobby-wide.jpg", eyebrow:"Hotel reveal", title:"A spectacular Pacific Northwest lobby", wide:true},
-    {image:"assets/day-0/hotel-room.jpg", eyebrow:"Home for the night", title:"The hotel room"},
-    {image:"assets/day-0/airport-arrival.jpg", eyebrow:"Travel day", title:"Bags in hand and Seattle bound"},
-    {image:"assets/day-0/hotel-lobby-vertical.jpg", eyebrow:"Design details", title:"Timber, plants, art, and light"}
+    {image:"assets/photos/mount-rainier.jpg", eyebrow:"Photo of the day", title:"Mount Rainier from the air", feature:true},
+    {image:"assets/photos/ziggy-luggage.jpg", eyebrow:"Departure committee", title:"Ziggy’s final luggage inspection"},
+    {image:"assets/photos/first-class-breakfast.jpg", eyebrow:"Alaska Airlines", title:"First-class breakfast"},
+    {image:"assets/photos/link-light-rail.jpg", eyebrow:"Seattle arrival", title:"Link light rail into the city"},
+    {image:"assets/photos/hotel-lobby-wide.jpg", eyebrow:"Hotel reveal", title:"A spectacular Pacific Northwest lobby", wide:true},
+    {image:"assets/photos/hotel-room.jpg", eyebrow:"Home for the night", title:"The hotel room"},
+    {image:"assets/photos/airport-arrival.jpg", eyebrow:"Travel day", title:"Bags in hand and Seattle bound"},
+    {image:"assets/photos/hotel-lobby-vertical.jpg", eyebrow:"Design details", title:"Timber, plants, art, and light"}
   ],
   wildlife: [
     {icon:"🐋",name:"Whale",copy:"The dream sighting. Bonus points for a tail shot.",seen:false},
