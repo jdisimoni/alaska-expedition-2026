@@ -49,7 +49,7 @@ const pos = positions[Math.max(0, Math.min(8, day < 0 ? 0 : day))];
 ship.setAttribute("transform", `translate(${pos[0]-100} ${pos[1]-520})`);
 
 document.getElementById("journal-grid").innerHTML = D.journal.map(item => `
-  <article class="journal-card ${item.status}">
+  <article class="journal-card ${item.status} ${item.featured ? "journal-feature" : ""}">
     <div>
       <div class="meta">${item.meta}</div>
       <h3>${item.title}</h3>
@@ -58,6 +58,15 @@ document.getElementById("journal-grid").innerHTML = D.journal.map(item => `
     <div class="tags">${item.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
   </article>
 `).join("");
+
+if (D.gallery?.length) {
+  document.getElementById("gallery-grid").innerHTML = D.gallery.map(item => `
+    <article class="gallery-card ${item.feature ? "feature-photo" : ""} ${item.wide ? "wide-photo" : ""}">
+      <img src="${item.image}" alt="${item.title}" loading="lazy">
+      <div class="gallery-caption"><span>${item.eyebrow}</span><strong>${item.title}</strong></div>
+    </article>
+  `).join("");
+}
 
 document.getElementById("wildlife-grid").innerHTML = D.wildlife.map(item => `
   <article class="wildlife-card ${item.seen ? "seen" : ""}">

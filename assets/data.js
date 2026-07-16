@@ -1,24 +1,18 @@
-
 window.TRIP_DATA = {
   tripStart: "2026-07-15T06:00:00-05:00",
   tripEnd: "2026-07-23T23:59:00-05:00",
   currentDayOverride: null,
-  stats: {
-    photos: 0,
-    videos: 0,
-    milesTraveled: 0,
-    wildlifeSightings: 0
-  },
+  stats: { photos: 10, videos: 0, milesTraveled: 0, wildlifeSightings: 0 },
   featured: {
-    label: "PRE-TRIP",
-    title: "The adventure is ready to begin",
-    caption: "Bags packed, cameras charged, and Alaska just one sleep away.",
-    location: "Fort Worth → Seattle",
+    label: "DAY 0 • JULY 15",
+    title: "A mountain-sized welcome to Seattle",
+    caption: "Mount Rainier appeared outside the airplane window in brilliant morning light—the perfect first landmark of the adventure.",
+    location: "Approaching Seattle, Washington",
     camera: "iPhone 17 Pro Max",
-    image: ""
+    image: "assets/day-0/mount-rainier.jpg"
   },
   itinerary: [
-    {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Early flight, Seattle arrival, Populus check-in, and the first official travel journal entry."},
+    {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Easy flight, a great first-class breakfast, Mount Rainier from the air, Link light rail, and hotel check-in."},
     {day:1,date:"JUL 16",title:"Board Brilliant Lady",copy:"Embarkation, cabin reveal, ship exploration, and sail away from Seattle."},
     {day:2,date:"JUL 17",title:"Inside Passage",copy:"Scenic cruising, wildlife watch, ship experiences, and Alaska finally surrounding us."},
     {day:3,date:"JUL 18",title:"Ketchikan",copy:"Colorful waterfronts, local character, and the first Alaska port adventure."},
@@ -29,12 +23,25 @@ window.TRIP_DATA = {
     {day:8,date:"JUL 23",title:"Seattle → Home",copy:"Disembarkation, the journey home, and the beginning of the final travel journal."}
   ],
   journal: [
-    {meta:"PRE-TRIP",title:"The adventure begins tomorrow",copy:"Bags packed, batteries charged, storage cleared, and expectations officially unreasonable.",tags:["Ready for launch","Texas"],status:"published"},
-    {meta:"DAY 0",title:"Texas to Seattle",copy:"Photos, highlights, favorite moment, and the first official dispatch will appear here.",tags:["Seattle","Travel day"],status:"pending"},
+    {
+      meta:"DAY 0 • JULY 15, 2026", title:"Texas to Seattle: the adventure officially begins",
+      copy:"Ziggy made one last attempt to stop the luggage from leaving, but the bags—and we—eventually made it to the airport. The flight was easy, the first-class breakfast was excellent, and Mount Rainier delivered an unforgettable welcome from the airplane window. After landing, we took Seattle’s Link light rail into the city and checked into an incredible hotel filled with timber, art, plants, and serious Pacific Northwest style. Then the early morning and two-hour time change caught up with me: I passed out around 5:00 PM. A glamorous ending to a very successful travel day.",
+      tags:["Seattle","Travel day","Mount Rainier","Ziggy approved"], status:"published", featured:true
+    },
     {meta:"DAY 1",title:"Embarkation & sail away",copy:"The first look at Brilliant Lady, the cabin reveal, and departure from Seattle.",tags:["Brilliant Lady","Sail away"],status:"pending"},
     {meta:"DAY 2",title:"Inside Passage",copy:"Scenery, wildlife, ship life, and the first full day surrounded by Alaska.",tags:["Scenic cruising"],status:"pending"},
     {meta:"DAY 3",title:"Ketchikan",copy:"A port-day recap featuring the best photo, meal, and unexpected moment.",tags:["Port day"],status:"pending"},
     {meta:"DAY 4–8",title:"The story continues",copy:"Sitka, Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
+  ],
+  gallery: [
+    {image:"assets/day-0/mount-rainier.jpg", eyebrow:"Photo of the day", title:"Mount Rainier from the air", feature:true},
+    {image:"assets/day-0/ziggy-luggage.jpg", eyebrow:"Departure committee", title:"Ziggy’s final luggage inspection"},
+    {image:"assets/day-0/first-class-breakfast.jpg", eyebrow:"Alaska Airlines", title:"First-class breakfast"},
+    {image:"assets/day-0/link-light-rail.jpg", eyebrow:"Seattle arrival", title:"Link light rail into the city"},
+    {image:"assets/day-0/hotel-lobby-wide.jpg", eyebrow:"Hotel reveal", title:"A spectacular Pacific Northwest lobby", wide:true},
+    {image:"assets/day-0/hotel-room.jpg", eyebrow:"Home for the night", title:"The hotel room"},
+    {image:"assets/day-0/airport-arrival.jpg", eyebrow:"Travel day", title:"Bags in hand and Seattle bound"},
+    {image:"assets/day-0/hotel-lobby-vertical.jpg", eyebrow:"Design details", title:"Timber, plants, art, and light"}
   ],
   wildlife: [
     {icon:"🐋",name:"Whale",copy:"The dream sighting. Bonus points for a tail shot.",seen:false},
