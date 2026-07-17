@@ -4,24 +4,24 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 9,
+    photos: 17,
     videos: 0,
     milesTraveled: 0,
     wildlifeSightings: 0
   },
 
   featured: {
-    label: "DAY 0 • JULY 15",
-    title: "A mountain-sized welcome to Seattle",
-    caption: "Mount Rainier appeared outside the airplane window in brilliant morning light—the perfect first landmark of the adventure.",
-    location: "Approaching Seattle, Washington",
+    label: "DAY 1 • JULY 16",
+    title: "Finally aboard Brilliant Lady",
+    caption: "After months of planning, the adventure became real: boarding Brilliant Lady, meeting Vegas Matt and the team onboard, exploring the ship, settling into the Sea Terrace cabin, and celebrating the first night at Gunbae.",
+    location: "Aboard Brilliant Lady • Seattle, Washington",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/mount-rainier.jpg"
+    image: "assets/photos/brilliant-lady-pool-deck.jpg"
   },
 
   itinerary: [
     {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Easy flight, a great first-class breakfast, Mount Rainier from the air, Link light rail, and hotel check-in."},
-    {day:1,date:"JUL 16",title:"Board Brilliant Lady",copy:"Embarkation, cabin reveal, ship exploration, and sail away from Seattle."},
+    {day:1,date:"JUL 16",title:"Board Brilliant Lady",copy:"Embarkation, the onboard Vegas Matt social, cabin reveal, ship exploration, Gunbae, spa bookings, and sail away from Seattle."},
     {day:2,date:"JUL 17",title:"Inside Passage",copy:"Scenic cruising, wildlife watch, ship experiences, and Alaska finally surrounding us."},
     {day:3,date:"JUL 18",title:"Ketchikan",copy:"Colorful waterfronts, local character, and the first Alaska port adventure."},
     {day:4,date:"JUL 19",title:"Sitka",copy:"History, coastal scenery, wildlife possibilities, and another chapter of the journey."},
@@ -38,16 +38,31 @@ window.TRIP_DATA = {
       copy:"Ziggy made one last attempt to stop the luggage from leaving, but the bags—and we—eventually made it to the airport. The flight was easy, the first-class breakfast was excellent, and Mount Rainier delivered an unforgettable welcome from the airplane window. After landing, we took Seattle’s Link light rail into the city and checked into an incredible hotel filled with timber, art, plants, and serious Pacific Northwest style. Then the early morning and two-hour time change caught up with me: I passed out around 5:00 PM. A glamorous ending to a very successful travel day.",
       tags:["Seattle","Travel day","Mount Rainier","Ziggy approved"],
       status:"published",
+      featured:false
+    },
+    {
+      meta:"DAY 1 • JULY 16, 2026",
+      title:"Finally aboard Brilliant Lady",
+      copy:"Months of planning, packing, camera research, website building, and countdowns led to the moment I finally stepped aboard Virgin Voyages’ Brilliant Lady. Once onboard, one of the first major highlights was the Vegas Matt social. I got to meet Vegas Matt and the team in person, pick up our cruise swag, and start the trip surrounded by fellow fans. From there, I explored the ship and checked into Sea Terrace cabin 13314Z. The room feels bright, modern, and comfortable, and the signature red hammock on the balcony may already be one of my favorite spots onboard. Dinner at Gunbae brought great food and lively first-night energy, and I also signed up for a few spa packages for later in the voyage. After months of talking about this adventure, it was finally real: I was onboard, unpacked, and ready for Alaska.",
+      tags:["Brilliant Lady","Vegas Matt","Gunbae","Sea Terrace","Embarkation"],
+      status:"published",
       featured:true
     },
-    {meta:"DAY 1",title:"Embarkation & sail away",copy:"The first look at Brilliant Lady, the cabin reveal, and departure from Seattle.",tags:["Brilliant Lady","Sail away"],status:"pending"},
     {meta:"DAY 2",title:"Inside Passage",copy:"Scenery, wildlife, ship life, and the first full day surrounded by Alaska.",tags:["Scenic cruising"],status:"pending"},
     {meta:"DAY 3",title:"Ketchikan",copy:"A port-day recap featuring the best photo, meal, and unexpected moment.",tags:["Port day"],status:"pending"},
     {meta:"DAY 4–8",title:"The story continues",copy:"Sitka, Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
   ],
 
   gallery: [
-    {image:"assets/photos/mount-rainier.jpg",eyebrow:"Photo of the day",title:"Mount Rainier from the air",feature:true},
+    {image:"assets/photos/brilliant-lady-pool-deck.jpg",eyebrow:"Photo of the day",title:"The adventure begins aboard Brilliant Lady",feature:true},
+    {image:"assets/photos/vegas-matt-social.jpg",eyebrow:"Onboard social",title:"Meeting Vegas Matt and the team"},
+    {image:"assets/photos/to-ship.jpg",eyebrow:"Embarkation",title:"The sign we had been waiting months to follow"},
+    {image:"assets/photos/sea-terrace-cabin.jpg",eyebrow:"Cabin reveal",title:"Home at sea for the week",wide:true},
+    {image:"assets/photos/cabin-first-look.jpg",eyebrow:"First impression",title:"Walking into the Sea Terrace cabin"},
+    {image:"assets/photos/red-hammock.jpg",eyebrow:"Virgin signature",title:"The famous red balcony hammock"},
+    {image:"assets/photos/cabin-13314z.jpg",eyebrow:"Home base",title:"Sea Terrace cabin 13314Z"},
+    {image:"assets/photos/gunbae-dinner.jpg",eyebrow:"First dinner",title:"Starting the voyage at Gunbae"},
+    {image:"assets/photos/mount-rainier.jpg",eyebrow:"Seattle arrival",title:"Mount Rainier from the air"},
     {image:"assets/photos/ziggy-luggage.jpg",eyebrow:"Departure committee",title:"Ziggy’s final luggage inspection"},
     {image:"assets/photos/first-class-breakfast.jpg",eyebrow:"Alaska Airlines",title:"First-class breakfast"},
     {image:"assets/photos/link-light-rail.jpg",eyebrow:"Seattle arrival",title:"Link light rail into the city"},
