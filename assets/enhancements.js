@@ -16,6 +16,17 @@
     else document.addEventListener("DOMContentLoaded", fn);
   }
 
+  // "days-complete" on the dashboard means days FULLY finished (today, in
+  // progress, doesn't count yet). The current trip day is that + 1.
+  function getCurrentTripDay(totalDays) {
+    var el = document.getElementById("days-complete");
+    var completed = el ? parseInt(el.textContent, 10) : NaN;
+    if (isNaN(completed)) completed = 0;
+    var day = completed + 1;
+    if (totalDays) day = Math.min(day, totalDays);
+    return day;
+  }
+
   /* ---------- 1. Sticky "Day X of 8" progress bar ---------- */
   function initProgressBar() {
     var totalDaysEl = document.querySelector(".hero-bottom div strong");
@@ -30,14 +41,8 @@
     document.body.prepend(bar);
     document.body.classList.add("has-progress-bar");
 
-    function currentDay() {
-      var el = document.getElementById("days-complete");
-      var n = el ? parseInt(el.textContent, 10) : NaN;
-      return isNaN(n) ? 0 : n;
-    }
-
     function update() {
-      var day = currentDay();
+      var day = getCurrentTripDay(totalDays);
       var pct = Math.max(0, Math.min(100, (day / totalDays) * 100));
       document.getElementById("tpb-day-label").textContent =
         "Day " + day + " of " + totalDays;
@@ -165,9 +170,7 @@
     }
 
     function update() {
-      var el = document.getElementById("days-complete");
-      var day = el ? parseInt(el.textContent, 10) : 0;
-      if (isNaN(day)) day = 0;
+      var day = getCurrentTripDay(8);
       var pos = shipPositionForDay(day);
       moveTo(pos.x + SHIP_OFFSET_X, pos.y + SHIP_OFFSET_Y);
     }
