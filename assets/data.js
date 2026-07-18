@@ -81,13 +81,13 @@ window.TRIP_DATA = {
     {image:"assets/photos/red-hammock.jpg",eyebrow:"Virgin signature",title:"The famous red balcony hammock"},
     {image:"assets/photos/cabin-13314z.jpg",eyebrow:"Home base",title:"Sea Terrace cabin 13314Z"},
     {image:"assets/photos/gunbae-dinner.jpg",eyebrow:"First dinner",title:"Starting the voyage at Gunbae"},
-    {image:"assets/photos/ziggy-luggage.jpg",eyebrow:"Departure committee",title:"Ziggy’s final luggage inspection"},
-    {image:"assets/photos/first-class-breakfast.jpg",eyebrow:"Alaska Airlines",title:"First-class breakfast"},
-    {image:"assets/photos/mount-rainier.jpg",eyebrow:"Seattle arrival",title:"Mount Rainier from the air"},
-    {image:"assets/photos/link-light-rail.jpg",eyebrow:"Seattle arrival",title:"Link light rail into the city"},
-    {image:"assets/photos/hotel-lobby-wide.jpg",eyebrow:"Hotel reveal",title:"A spectacular Pacific Northwest lobby",wide:true},
+    {image:"assets/photos/hotel-lobby-vertical.jpg",eyebrow:"Design details",title:"Timber, plants, art, and light"},
     {image:"assets/photos/hotel-room.jpg",eyebrow:"Home for the night",title:"The hotel room"},
-    {image:"assets/photos/hotel-lobby-vertical.jpg",eyebrow:"Design details",title:"Timber, plants, art, and light"}
+    {image:"assets/photos/hotel-lobby-wide.jpg",eyebrow:"Hotel reveal",title:"A spectacular Pacific Northwest lobby",wide:true},
+    {image:"assets/photos/link-light-rail.jpg",eyebrow:"Seattle arrival",title:"Link light rail into the city"},
+    {image:"assets/photos/mount-rainier.jpg",eyebrow:"Seattle arrival",title:"Mount Rainier from the air"},
+    {image:"assets/photos/first-class-breakfast.jpg",eyebrow:"Alaska Airlines",title:"First-class breakfast"},
+    {image:"assets/photos/ziggy-luggage.jpg",eyebrow:"Departure committee",title:"Ziggy’s final luggage inspection"}
   ],
 
   wildlife: [
