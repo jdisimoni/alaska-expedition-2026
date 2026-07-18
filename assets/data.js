@@ -4,7 +4,7 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 27,
+    photos: 24,
     videos: 0,
     milesTraveled: 0,
     wildlifeSightings: 0
@@ -50,7 +50,7 @@ window.TRIP_DATA = {
     },
     {
       meta:"DAY 2 • JULY 17, 2026",
-      title:"A Relaxing Sea Day",
+      title:"A relaxing sea day",
       copy:"With no port to rush off to, Day 2 was all about enjoying life aboard Brilliant Lady. The morning started with an unexpectedly delicious breakfast of Nutella and banana toast before heading to the Vegas Matt and Friends Q&A. One of my favorite photos from the event is of Vegas Matt and his son, EJ, answering questions and sharing stories that kept everyone laughing. Afterward I picked up some new Virgin Voyages gear, then treated myself to my first facial at Redemption Spa. Dinner at Extra Virgin was another highlight, with fantastic Italian food and a great cocktail to end the evening before stepping outside to admire the misty scenery of Alaska's Inside Passage.",
       tags:["Sea day","Redemption Spa","Vegas Matt","Inside Passage","Virgin Voyages"],
       status:"published",
