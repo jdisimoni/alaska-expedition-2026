@@ -13,7 +13,7 @@ window.TRIP_DATA = {
   featured: {
     label: "DAY 2 • JULY 17",
     title: "Sea Day, Spa Day & Stories with Vegas Matt",
-    caption: "A relaxing day aboard Brilliant Lady brought new food, my first facial at Redemption Spa, an unforgettable Q&A with Vegas Matt and the crew, and misty first views of Alaska.",
+    caption: "Breakfast, the Vegas Matt and Friends Q&A, shopping, a relaxing spa visit, dinner at Extra Virgin, and beautiful evening views made for the perfect sea day.",
     location: "Inside Passage • Aboard Brilliant Lady",
     camera: "iPhone 17 Pro Max",
     image: "assets/photos/day2-inside-passage.jpg"
@@ -50,8 +50,8 @@ window.TRIP_DATA = {
     },
     {
       meta:"DAY 2 • JULY 17, 2026",
-      title:"Sea Day, Spa Day & Stories with Vegas Matt",
-      copy:"After the excitement of embarkation, Day 2 was all about slowing down and enjoying Brilliant Lady. I spent the sea day exploring more of the ship, trying new food, and taking in the first misty views of Alaska. One of the biggest personal firsts was a facial at Redemption Spa—a perfect chance to relax and recharge. The afternoon highlight was our exclusive Q&A with Vegas Matt and the crew. It was hilarious, informal, and felt more like listening to friends trade stories than attending a formal event. They are every bit as funny and genuine in person as they are online. Later, I changed into my full Virgin Voyages hoodie and joggers and declared myself ready to model for the cruise line. No contract yet, but the outfit absolutely matched the ship.",
+      title:"A Relaxing Sea Day",
+      copy:"With no port to rush off to, Day 2 was all about enjoying life aboard Brilliant Lady. The morning started with an unexpectedly delicious breakfast of Nutella and banana toast before heading to the Vegas Matt and Friends Q&A. One of my favorite photos from the event is of Vegas Matt and his son, EJ, answering questions and sharing stories that kept everyone laughing. Afterward I picked up some new Virgin Voyages gear, then treated myself to my first facial at Redemption Spa. Dinner at Extra Virgin was another highlight, with fantastic Italian food and a great cocktail to end the evening before stepping outside to admire the misty scenery of Alaska's Inside Passage.",
       tags:["Sea day","Redemption Spa","Vegas Matt","Inside Passage","Virgin Voyages"],
       status:"published",
       featured:true
@@ -62,15 +62,17 @@ window.TRIP_DATA = {
 
   gallery: [
     {image:"assets/photos/day2-inside-passage.jpg",eyebrow:"Photo of the day",title:"Misty passage into Alaska",feature:true,wide:true},
-    {image:"assets/photos/day2-virgin-outfit.jpg",eyebrow:"Cruise-line model",title:"Decked out in Virgin Voyages gear"},
-    {image:"assets/photos/day2-vegas-matt-qa.jpg",eyebrow:"Exclusive Q&A",title:"Stories and laughs with Vegas Matt"},
-    {image:"assets/photos/day2-qa-stage.jpg",eyebrow:"Vegas Matt crew",title:"A hilarious afternoon onboard",wide:true},
-    {image:"assets/photos/day2-team-qa.jpg",eyebrow:"Behind the scenes",title:"More of the team takes the stage",wide:true},
+    
+    {image:"assets/photos/day2-banana-toast.jpg",eyebrow:"Breakfast",title:"Nutella and banana toast"},
+    {image:"assets/photos/day2-vegas-matt-qa.jpg",eyebrow:"Vegas Matt and Friends Q&A",title:"Vegas Matt takes the stage"},
+    {image:"assets/photos/day2-qa-stage.jpg",eyebrow:"Vegas Matt and EJ",title:"Vegas Matt and his son, EJ, during the Q&A"},
+    {image:"assets/photos/day2-team-qa.jpg",eyebrow:"Great moments",title:"Another fun moment from the Q&A"},
+    {image:"assets/photos/day2-virgin-outfit.jpg",eyebrow:"Virgin shopping",title:"Showing off my new Virgin Voyages gear"},
     {image:"assets/photos/day2-cocktail.jpg",eyebrow:"Sea-day sip",title:"A cocktail with a grape garnish"},
     {image:"assets/photos/day2-seafood.jpg",eyebrow:"Trying something new",title:"A crispy seafood sampler"},
     {image:"assets/photos/day2-meatballs.jpg",eyebrow:"Comfort food",title:"Meatballs in rich tomato sauce"},
-    {image:"assets/photos/day2-banana-toast.jpg",eyebrow:"Breakfast discovery",title:"Banana and chocolate toast"},
-    {image:"assets/photos/day2-vegas-shirt.jpg",eyebrow:"Event ready",title:"Ready for the Vegas Matt Q&A"},
+    
+    
     {image:"assets/photos/brilliant-lady-pool-deck.jpg",eyebrow:"Photo of the day",title:"The adventure begins aboard Brilliant Lady",feature:true},
     {image:"assets/photos/vegas-matt-social.jpg",eyebrow:"Onboard social",title:"Meeting Vegas Matt and the team"},
     {image:"assets/photos/to-ship.jpg",eyebrow:"Embarkation",title:"The sign we had been waiting months to follow"},
