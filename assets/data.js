@@ -4,26 +4,26 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 24,
+    photos: 35,
     videos: 0,
     milesTraveled: 0,
     wildlifeSightings: 0
   },
 
   featured: {
-    label: "DAY 2 • JULY 17",
-    title: "Sea Day, Spa Day & Stories with Vegas Matt",
-    caption: "Breakfast, the Vegas Matt and Friends Q&A, shopping, a relaxing spa visit, dinner at Extra Virgin, and beautiful evening views made for the perfect sea day.",
-    location: "Inside Passage • Aboard Brilliant Lady",
+    label: "DAY 3 • JULY 18",
+    title: "Ketchikan Adventures, Lucky Moments & a Toast to Alaska",
+    caption: "A relaxing spa morning, my first visit to Alaska, an unforgettable book signing with the Vegas Matt crew, and dinner at The Wake made for one of the best days of the trip so far.",
+    location: "Ketchikan, Alaska • Aboard Brilliant Lady",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/day2-inside-passage.jpg"
+    image: "assets/photos/day3-ketchikan-sign.jpg"
   },
 
   itinerary: [
     {day:0,date:"JUL 15",title:"Texas → Seattle",copy:"Easy flight, a great first-class breakfast, Mount Rainier from the air, Link light rail, and hotel check-in."},
     {day:1,date:"JUL 16",title:"Board Brilliant Lady",copy:"Embarkation, the onboard Vegas Matt social, cabin reveal, ship exploration, Gunbae, spa bookings, and sail away from Seattle."},
     {day:2,date:"JUL 17",title:"Inside Passage",copy:"Scenic cruising, wildlife watch, ship experiences, and Alaska finally surrounding us."},
-    {day:3,date:"JUL 18",title:"Ketchikan",copy:"Colorful waterfronts, local character, and the first Alaska port adventure."},
+    {day:3,date:"JUL 18",title:"Ketchikan",copy:"A spa morning, colorful streets, a Vegas Matt book signing, dinner at The Wake, and a first taste of Dom Pérignon."},
     {day:4,date:"JUL 19",title:"Sitka",copy:"History, coastal scenery, wildlife possibilities, and another chapter of the journey."},
     {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"The cinematic centerpiece: ice, scale, silence, and a truly unforgettable view."},
     {day:6,date:"JUL 21",title:"Prince Rupert",copy:"A Canadian port day with harbor views, local exploration, and one more stamp in the story."},
@@ -54,13 +54,32 @@ window.TRIP_DATA = {
       copy:"With no port to rush off to, Day 2 was all about enjoying life aboard Brilliant Lady. The morning started with an unexpectedly delicious breakfast of Nutella and banana toast before heading to the Vegas Matt and Friends Q&A. One of my favorite photos from the event is of Vegas Matt and his son, EJ, answering questions and sharing stories that kept everyone laughing. Afterward I picked up some new Virgin Voyages gear, then treated myself to my first facial at Redemption Spa. Dinner at Extra Virgin was another highlight, with fantastic Italian food and a great cocktail to end the evening before stepping outside to admire the misty scenery of Alaska's Inside Passage.",
       tags:["Sea day","Redemption Spa","Vegas Matt","Inside Passage","Virgin Voyages"],
       status:"published",
+      featured:false
+    },
+    {
+      meta:"DAY 3 • JULY 18, 2026",
+      title:"Ketchikan Adventures, Lucky Moments & a Toast to Alaska",
+      copy:"Some travel days are packed from sunrise to sunset, while others seem to unfold naturally into unforgettable experiences. Day 3 somehow managed to be both. The morning began with a 75-minute Absolution Quartz Bed Massage and time relaxing in the thermal spa—the perfect way to recharge before arriving at my first Alaskan port. By early afternoon, Brilliant Lady reached Ketchikan. The colorful storefronts, fishing history, towering evergreens, waterfront monuments, and cool coastal air made the town feel unmistakably Alaskan. I wandered through local shops and found plenty of quirky surprises, including a giant crocheted octopus and an old-fashioned Pappy fortune teller. The highlight came back onboard at a special book signing with Vegas Matt and the crew. I picked up The Art of Being Lucky, had it signed by the team and all the personalities, and finally got the photo I had hoped for since booking the cruise. Dinner at The Wake made the evening feel like a celebration, with warm rolls, steak, dessert, and my first-ever glass of Dom Pérignon. I wrapped up an eventful day with a little casino time and a movie before resting up for the next adventure.",
+      tags:["Ketchikan","Redemption Spa","Vegas Matt","The Wake","Dom Pérignon"],
+      status:"published",
       featured:true
     },
-    {meta:"DAY 3",title:"Ketchikan",copy:"A port-day recap featuring the best photo, meal, and unexpected moment.",tags:["Port day"],status:"pending"},
     {meta:"DAY 4–8",title:"The story continues",copy:"Sitka, Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
   ],
 
   gallery: [
+    {image:"assets/photos/day3-ketchikan-sign.jpg",eyebrow:"Photo of the day",title:"Welcome to Ketchikan, Alaska's First City",feature:true,wide:true},
+    {image:"assets/photos/day3-spa.jpg",eyebrow:"Spa morning",title:"Starting the day with a Quartz Bed Massage"},
+    {image:"assets/photos/day3-eagle.jpg",eyebrow:"Ketchikan character",title:"A larger-than-life welcome from the eagle"},
+    {image:"assets/photos/day3-fisherman-statue.jpg",eyebrow:"Waterfront history",title:"Ketchikan's fishing heritage at the harbor"},
+    {image:"assets/photos/day3-octopus.jpg",eyebrow:"Unexpected find",title:"A giant crocheted octopus in the candy shop"},
+    {image:"assets/photos/day3-pappy.jpg",eyebrow:"Local curiosity",title:"Meeting Pappy the fortune teller"},
+    {image:"assets/photos/day3-vegas-matt.jpg",eyebrow:"Highlight of the day",title:"A signed book and a photo with Vegas Matt",wide:true},
+    {image:"assets/photos/day3-dom-perignon.jpg",eyebrow:"A memorable first",title:"My first glass of Dom Pérignon"},
+    {image:"assets/photos/day3-rolls.jpg",eyebrow:"Dinner at The Wake",title:"Warm pull-apart rolls to start dinner"},
+    {image:"assets/photos/day3-steak.jpg",eyebrow:"The Wake",title:"Steak dinner aboard Brilliant Lady"},
+    {image:"assets/photos/day3-dessert.jpg",eyebrow:"Sweet finish",title:"Dessert to close an unforgettable day"},
+
     {image:"assets/photos/day2-inside-passage.jpg",eyebrow:"Photo of the day",title:"Misty passage into Alaska",feature:true,wide:true},
     
     {image:"assets/photos/day2-banana-toast.jpg",eyebrow:"Breakfast",title:"Nutella and banana toast"},
