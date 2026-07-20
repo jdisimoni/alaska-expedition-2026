@@ -113,3 +113,15 @@ h1 span{display:block}.outline{color:transparent;-webkit-text-stroke:2px var(--t
 .gallery-card.wide-photo{grid-column:span 2}
 @media(max-width:980px){.journal-card.journal-feature{grid-column:span 2}}
 @media(max-width:700px){.journal-card.journal-feature{grid-column:auto}.journal-card.journal-feature h3{font-size:2rem}.gallery-card.wide-photo{grid-column:auto}}
+
+
+/* Day 4: comments */
+.comments-card {
+  margin-top: 1.5rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  min-height: 180px;
+  overflow: hidden;
+}
+.comments-card .utterances {
+  max-width: none;
+}

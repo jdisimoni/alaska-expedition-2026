@@ -4,19 +4,19 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 35,
+    photos: 50,
     videos: 0,
     milesTraveled: 0,
-    wildlifeSightings: 0
+    wildlifeSightings: 3
   },
 
   featured: {
-    label: "DAY 3 • JULY 18",
-    title: "Ketchikan Adventures, Lucky Moments & a Toast to Alaska",
-    caption: "A relaxing spa morning, my first visit to Alaska, an unforgettable book signing with the Vegas Matt crew, and dinner at The Wake made for one of the best days of the trip so far.",
-    location: "Ketchikan, Alaska • Aboard Brilliant Lady",
+    label: "DAY 4 • JULY 19",
+    title: "Sitka: Eagles, Otters & Alaska’s Wild Side",
+    caption: "A nearly three-mile exploration through Sitka, towering totems, rescued raptors, and an unforgettable wildlife excursion with EJ and the Vegas Matt crew.",
+    location: "Sitka, Alaska • Sitka Sound",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/day3-ketchikan-sign.jpg"
+    image: "assets/photos/day4-sea-otters.jpg"
   },
 
   itinerary: [
@@ -24,7 +24,7 @@ window.TRIP_DATA = {
     {day:1,date:"JUL 16",title:"Board Brilliant Lady",copy:"Embarkation, the onboard Vegas Matt social, cabin reveal, ship exploration, Gunbae, spa bookings, and sail away from Seattle."},
     {day:2,date:"JUL 17",title:"Inside Passage",copy:"Scenic cruising, wildlife watch, ship experiences, and Alaska finally surrounding us."},
     {day:3,date:"JUL 18",title:"Ketchikan",copy:"A spa morning, colorful streets, a Vegas Matt book signing, dinner at The Wake, and a first taste of Dom Pérignon."},
-    {day:4,date:"JUL 19",title:"Sitka",copy:"History, coastal scenery, wildlife possibilities, and another chapter of the journey."},
+    {day:4,date:"JUL 19",title:"Sitka",copy:"Totem trails, the Alaska Raptor Center, and a wildlife-filled sea otter excursion with EJ and the Vegas Matt crew."},
     {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"The cinematic centerpiece: ice, scale, silence, and a truly unforgettable view."},
     {day:6,date:"JUL 21",title:"Prince Rupert",copy:"A Canadian port day with harbor views, local exploration, and one more stamp in the story."},
     {day:7,date:"JUL 22",title:"Final Sea Day",copy:"Favorite moments, final ship experiences, last-night energy, and reflection."},
@@ -64,10 +64,33 @@ window.TRIP_DATA = {
       status:"published",
       featured:true
     },
-    {meta:"DAY 4–8",title:"The story continues",copy:"Sitka, Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
+    {
+      meta:"DAY 4 • JULY 19, 2026",
+      title:"Sitka: Eagles, Otters & Alaska’s Wild Side",
+      copy:"We arrived in Sitka ready for a full Alaska adventure—and, in honor of the stop, watched The Proposal to set the mood. Once ashore, we explored on foot and covered more than two miles through town, Sitka National Historical Park, and its forest trails lined with towering totem poles. From there we continued to the Alaska Raptor Center, where seeing rescued bald eagles up close made their size and power even more impressive. The main event came that afternoon when we joined EJ and the Vegas Matt crew for a sea otter excursion through Sitka Sound. The wildlife absolutely delivered: bald eagles perched high above the shoreline, humpback whales surfaced in the distance, and rafts of sea otters floated together among the kelp. Back aboard Brilliant Lady, we wrapped up the day with dinner at Pink Agave, a little casino time, and an early bedtime before glacier day.",
+      tags:["Sitka","Sea otters","Bald eagles","Humpback whales","Vegas Matt","Pink Agave"],
+      status:"published",
+      featured:true
+    },
+    {meta:"DAY 5–8",title:"The story continues",copy:"Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
   ],
 
   gallery: [
+    {image:"assets/photos/day4-sea-otters.jpg",eyebrow:"Photo of the day",title:"A raft of sea otters in Sitka Sound",feature:true,wide:true},
+    {image:"assets/photos/day4-binoculars.jpg",eyebrow:"Wildlife watch",title:"Scanning Sitka Sound for whales and eagles"},
+    {image:"assets/photos/day4-brilliant-lady-sitka.jpg",eyebrow:"Arrival in Sitka",title:"Brilliant Lady framed by the mountains",wide:true},
+    {image:"assets/photos/day4-sitka-terminal.jpg",eyebrow:"Port of call",title:"Welcome to Sitka Sound"},
+    {image:"assets/photos/day4-totem.jpg",eyebrow:"Totem trail",title:"A towering work of art in the Sitka forest"},
+    {image:"assets/photos/day4-coastal-view.jpg",eyebrow:"Sitka National Historical Park",title:"Forest trails opening onto the water",wide:true},
+    {image:"assets/photos/day4-driftwood-shore.jpg",eyebrow:"Wild Alaska",title:"Mountains, clouds, and a driftwood shoreline",wide:true},
+    {image:"assets/photos/day4-kiksadi.jpg",eyebrow:"Tlingit history",title:"Remembering the Kiks.ádi Clan"},
+    {image:"assets/photos/day4-raptor-center.jpg",eyebrow:"Wildlife conservation",title:"A visit to the Alaska Raptor Center"},
+    {image:"assets/photos/day4-raptor-eagle.jpg",eyebrow:"Up close",title:"A rescued bald eagle at the Raptor Center"},
+    {image:"assets/photos/day4-eagle-tree.jpg",eyebrow:"Eyes to the sky",title:"A bald eagle perched above Sitka Sound",wide:true},
+    {image:"assets/photos/day4-rocky-inlet.jpg",eyebrow:"Coastal rainforest",title:"A quiet rocky inlet along the Sitka shoreline",wide:true},
+    {image:"assets/photos/day4-bucees.jpg",eyebrow:"Unexpected Alaska",title:"Buc-ee brought the party to Sitka"},
+    {image:"assets/photos/day4-walk-stats.jpg",eyebrow:"Expedition log",title:"2.03 miles and 200 feet of elevation through Sitka"},
+    {image:"assets/photos/day4-pink-agave.jpg",eyebrow:"Dinner at Pink Agave",title:"The perfect finish to a wild Alaska day"},
     {image:"assets/photos/day3-ketchikan-sign.jpg",eyebrow:"Photo of the day",title:"Welcome to Ketchikan, Alaska's First City",feature:true,wide:true},
     {image:"assets/photos/day3-spa.jpg",eyebrow:"Spa morning",title:"Starting the day with a Quartz Bed Massage"},
     {image:"assets/photos/day3-eagle.jpg",eyebrow:"Ketchikan character",title:"A larger-than-life welcome from the eagle"},
@@ -110,9 +133,9 @@ window.TRIP_DATA = {
   ],
 
   wildlife: [
-    {icon:"🐋",name:"Whale",copy:"The dream sighting. Bonus points for a tail shot.",seen:false},
-    {icon:"🦅",name:"Bald eagle",copy:"Alaska's most photogenic overhead celebrity.",seen:false},
-    {icon:"🦦",name:"Sea otter",copy:"Small, adorable, and extremely easy to over-photograph.",seen:false},
+    {icon:"🐋",name:"Whale",copy:"Humpback whales surfaced during the Sitka wildlife excursion.",seen:true},
+    {icon:"🦅",name:"Bald eagle",copy:"Seen at the Raptor Center and perched above Sitka Sound.",seen:true},
+    {icon:"🦦",name:"Sea otter",copy:"Rafts of sea otters became the defining sight of Sitka.",seen:true},
     {icon:"🐻",name:"Bear",copy:"A rare, high-priority sighting from a safe distance.",seen:false},
     {icon:"🦭",name:"Seal or sea lion",copy:"Likely harbor guests and excellent video subjects.",seen:false},
     {icon:"🫎",name:"Moose",copy:"Unlikely, but the board stays optimistic.",seen:false},
