@@ -4,19 +4,19 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 50,
+    photos: 60,
     videos: 0,
     milesTraveled: 0,
-    wildlifeSightings: 3
+    wildlifeSightings: 4
   },
 
   featured: {
-    label: "DAY 4 • JULY 19",
-    title: "Sitka: Eagles, Otters & Alaska’s Wild Side",
-    caption: "A nearly three-mile exploration through Sitka, towering totems, rescued raptors, and an unforgettable wildlife excursion with EJ and the Vegas Matt crew.",
-    location: "Sitka, Alaska • Sitka Sound",
+    label: "DAY 5 • JULY 20",
+    title: "Ice, Innovation & a $2,690 Win",
+    caption: "A relaxing sea day brought my first cryotherapy session, the breathtaking blue ice of Dawes Glacier, harbor seals among the floes, a scientific dinner at Test Kitchen, and my first jackpot of the cruise.",
+    location: "Endicott Arm & Dawes Glacier • Alaska",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/day4-sea-otters.jpg"
+    image: "assets/photos/day5-dawes-glacier-wide.jpg"
   },
 
   itinerary: [
@@ -25,7 +25,7 @@ window.TRIP_DATA = {
     {day:2,date:"JUL 17",title:"Inside Passage",copy:"Scenic cruising, wildlife watch, ship experiences, and Alaska finally surrounding us."},
     {day:3,date:"JUL 18",title:"Ketchikan",copy:"A spa morning, colorful streets, a Vegas Matt book signing, dinner at The Wake, and a first taste of Dom Pérignon."},
     {day:4,date:"JUL 19",title:"Sitka",copy:"Totem trails, the Alaska Raptor Center, and a wildlife-filled sea otter excursion with EJ and the Vegas Matt crew."},
-    {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"The cinematic centerpiece: ice, scale, silence, and a truly unforgettable view."},
+    {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"Cryotherapy, brilliant blue glacier ice, harbor seals, Test Kitchen, and a $2,690 jackpot."},
     {day:6,date:"JUL 21",title:"Prince Rupert",copy:"A Canadian port day with harbor views, local exploration, and one more stamp in the story."},
     {day:7,date:"JUL 22",title:"Final Sea Day",copy:"Favorite moments, final ship experiences, last-night energy, and reflection."},
     {day:8,date:"JUL 23",title:"Seattle → Home",copy:"Disembarkation, the journey home, and the beginning of the final travel journal."}
@@ -62,7 +62,7 @@ window.TRIP_DATA = {
       copy:"Some travel days are packed from sunrise to sunset, while others seem to unfold naturally into unforgettable experiences. Day 3 somehow managed to be both. The morning began with a 75-minute Absolution Quartz Bed Massage and time relaxing in the thermal spa—the perfect way to recharge before arriving at my first Alaskan port. By early afternoon, Brilliant Lady reached Ketchikan. The colorful storefronts, fishing history, towering evergreens, waterfront monuments, and cool coastal air made the town feel unmistakably Alaskan. I wandered through local shops and found plenty of quirky surprises, including a giant crocheted octopus and an old-fashioned Pappy fortune teller. The highlight came back onboard at a special book signing with Vegas Matt and the crew. I picked up The Art of Being Lucky, had it signed by the team and all the personalities, and finally got the photo I had hoped for since booking the cruise. Dinner at The Wake made the evening feel like a celebration, with warm rolls, steak, dessert, and my first-ever glass of Dom Pérignon. I wrapped up an eventful day with a little casino time and a movie before resting up for the next adventure.",
       tags:["Ketchikan","Redemption Spa","Vegas Matt","The Wake","Dom Pérignon"],
       status:"published",
-      featured:true
+      featured:false
     },
     {
       meta:"DAY 4 • JULY 19, 2026",
@@ -70,12 +70,30 @@ window.TRIP_DATA = {
       copy:"We arrived in Sitka ready for a full Alaska adventure—and, in honor of the stop, watched The Proposal to set the mood. Once ashore, we explored on foot and covered more than two miles through town, Sitka National Historical Park, and its forest trails lined with towering totem poles. From there we continued to the Alaska Raptor Center, where seeing rescued bald eagles up close made their size and power even more impressive. The main event came that afternoon when we joined EJ and the Vegas Matt crew for a sea otter excursion through Sitka Sound. The wildlife absolutely delivered: bald eagles perched high above the shoreline, humpback whales surfaced in the distance, and rafts of sea otters floated together among the kelp. Back aboard Brilliant Lady, we wrapped up the day with dinner at Pink Agave, a little casino time, and an early bedtime before glacier day.",
       tags:["Sitka","Sea otters","Bald eagles","Humpback whales","Vegas Matt","Pink Agave"],
       status:"published",
+      featured:false
+    },
+    {
+      meta:"DAY 5 • JULY 20, 2026",
+      title:"Ice, Innovation & a $2,690 Win",
+      copy:"Today was a relaxing sea day, but it still delivered some of the biggest moments of the trip. I started the morning with my first cryotherapy session. It was definitely interesting, but I wanted to try something new as part of my weight loss journey and the cruise felt like the perfect opportunity. Later, Brilliant Lady sailed into Endicott Arm toward Dawes Glacier. The towering blue ice, drifting pieces of glacier, waterfalls spilling down the rocky cliffs, and harbor seals resting among the ice made the entire scene feel almost unreal. That evening we went to Test Kitchen, where science and cooking come together in a series of creative courses, unexpected flavors, smoke, and presentation. They truly put the test in Test Kitchen. To top everything off, I scored my first jackpot of the trip—a $2,690 win that made an already unforgettable day even more exciting.",
+      tags:["Dawes Glacier","Endicott Arm","Cryotherapy","Harbor seals","Test Kitchen","Jackpot"],
+      status:"published",
       featured:true
     },
-    {meta:"DAY 5–8",title:"The story continues",copy:"Dawes Glacier, Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
+    {meta:"DAY 6–8",title:"The story continues",copy:"Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
   ],
 
   gallery: [
+    {image:"assets/photos/day5-dawes-glacier-wide.jpg",eyebrow:"Photo of the day",title:"Face to face with Dawes Glacier",feature:true,wide:true},
+    {image:"assets/photos/day5-dawes-glacier-close.jpg",eyebrow:"Blue ice",title:"The fractured face of Dawes Glacier",wide:true},
+    {image:"assets/photos/day5-waterfall.jpg",eyebrow:"Endicott Arm",title:"Glacial water cascading down the cliffs",wide:true},
+    {image:"assets/photos/day5-seal-swimming.jpg",eyebrow:"Wildlife sighting",title:"A harbor seal swimming through the glacial water"},
+    {image:"assets/photos/day5-seals-on-ice.jpg",eyebrow:"Glacier wildlife",title:"Harbor seals resting among the floating ice",wide:true},
+    {image:"assets/photos/day5-test-kitchen-smoke.jpg",eyebrow:"Test Kitchen",title:"Dinner arrives under a cloud of smoke"},
+    {image:"assets/photos/day5-test-kitchen-shrimp.jpg",eyebrow:"Experimental dining",title:"Shrimp, tomatoes, and delicate ribbons"},
+    {image:"assets/photos/day5-test-kitchen-corn.jpg",eyebrow:"Creative course",title:"A playful interpretation of corn"},
+    {image:"assets/photos/day5-test-kitchen-dessert.jpg",eyebrow:"Sweet experiment",title:"Strawberries, cream, crunch, and color"},
+    {image:"assets/photos/day5-jackpot.jpg",eyebrow:"Lucky night",title:"The first jackpot of the cruise: $2,690",wide:true},
     {image:"assets/photos/day4-sea-otters.jpg",eyebrow:"Photo of the day",title:"A raft of sea otters in Sitka Sound",feature:true,wide:true},
     {image:"assets/photos/day4-binoculars.jpg",eyebrow:"Wildlife watch",title:"Scanning Sitka Sound for whales and eagles"},
     {image:"assets/photos/day4-brilliant-lady-sitka.jpg",eyebrow:"Arrival in Sitka",title:"Brilliant Lady framed by the mountains",wide:true},
@@ -137,7 +155,7 @@ window.TRIP_DATA = {
     {icon:"🦅",name:"Bald eagle",copy:"Seen at the Raptor Center and perched above Sitka Sound.",seen:true},
     {icon:"🦦",name:"Sea otter",copy:"Rafts of sea otters became the defining sight of Sitka.",seen:true},
     {icon:"🐻",name:"Bear",copy:"A rare, high-priority sighting from a safe distance.",seen:false},
-    {icon:"🦭",name:"Seal or sea lion",copy:"Likely harbor guests and excellent video subjects.",seen:false},
+    {icon:"🦭",name:"Seal or sea lion",copy:"Harbor seals were spotted swimming and resting among the ice near Dawes Glacier.",seen:true},
     {icon:"🫎",name:"Moose",copy:"Unlikely, but the board stays optimistic.",seen:false},
     {icon:"🐬",name:"Porpoise",copy:"Fast-moving bonus wildlife for scenic cruising days.",seen:false},
     {icon:"🌌",name:"Aurora",copy:"Not wildlife, but absolutely worthy of the board.",seen:false}
