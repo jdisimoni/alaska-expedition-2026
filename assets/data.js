@@ -93,7 +93,7 @@ window.TRIP_DATA = {
 
   gallery: [
     {image:"assets/photos/day6-jackpot.jpg",eyebrow:"Photo of the day",title:"The second jackpot of the cruise: more than $3,500",feature:true,wide:true},
-    {image:"assets/photos/day6-casino-chips.jpg",eyebrow:"Lucky night",title:"Casino chips ready for the Vegas Matt group pull"},
+    {image:"assets/photos/day6-casino-chips.jpg",eyebrow:"Blackjack hot streak",title:"The winnings after an incredible run at the blackjack table"},
     {image:"assets/photos/day6-prince-rupert-memorial.jpg",eyebrow:"Prince Rupert",title:"Pacific Mariners Memorial Park with Brilliant Lady in the background",wide:true},
     {image:"assets/photos/day6-waterfront-flags.jpg",eyebrow:"Waterfront walk",title:"International flags along the Prince Rupert harbor",wide:true},
     {image:"assets/photos/day6-rojo-shrimp.jpg",eyebrow:"Dinner at Rojo",title:"Shrimp toast to begin the evening"},
