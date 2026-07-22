@@ -4,19 +4,19 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 60,
+    photos: 67,
     videos: 0,
     milesTraveled: 0,
     wildlifeSightings: 4
   },
 
   featured: {
-    label: "DAY 5 • JULY 20",
-    title: "Ice, Innovation & a $2,690 Win",
-    caption: "A relaxing sea day brought my first cryotherapy session, the breathtaking blue ice of Dawes Glacier, harbor seals among the floes, a scientific dinner at Test Kitchen, and my first jackpot of the cruise.",
-    location: "Endicott Arm & Dawes Glacier • Alaska",
+    label: "DAY 6 • JULY 21",
+    title: "Prince Rupert, Rojo & Another Jackpot",
+    caption: "A quiet day exploring Prince Rupert’s waterfront and art shops turned into a memorable night aboard Brilliant Lady with dinner at Rojo, the Vegas Matt group pull, a second jackpot worth more than $3,500, and an incredible blackjack run.",
+    location: "Prince Rupert, British Columbia • Canada",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/day5-dawes-glacier-wide.jpg"
+    image: "assets/photos/day6-jackpot.jpg"
   },
 
   itinerary: [
@@ -26,7 +26,7 @@ window.TRIP_DATA = {
     {day:3,date:"JUL 18",title:"Ketchikan",copy:"A spa morning, colorful streets, a Vegas Matt book signing, dinner at The Wake, and a first taste of Dom Pérignon."},
     {day:4,date:"JUL 19",title:"Sitka",copy:"Totem trails, the Alaska Raptor Center, and a wildlife-filled sea otter excursion with EJ and the Vegas Matt crew."},
     {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"Cryotherapy, brilliant blue glacier ice, harbor seals, Test Kitchen, and a $2,690 jackpot."},
-    {day:6,date:"JUL 21",title:"Prince Rupert",copy:"A Canadian port day with harbor views, local exploration, and one more stamp in the story."},
+    {day:6,date:"JUL 21",title:"Prince Rupert",copy:"Waterfront views, local art shops, dinner at Rojo, the Vegas Matt group pull, a second jackpot worth more than $3,500, and an incredible blackjack run."},
     {day:7,date:"JUL 22",title:"Final Sea Day",copy:"Favorite moments, final ship experiences, last-night energy, and reflection."},
     {day:8,date:"JUL 23",title:"Seattle → Home",copy:"Disembarkation, the journey home, and the beginning of the final travel journal."}
   ],
@@ -78,12 +78,27 @@ window.TRIP_DATA = {
       copy:"Today was a relaxing sea day, but it still delivered some of the biggest moments of the trip. I started the morning with my first cryotherapy session. It was definitely interesting, but I wanted to try something new as part of my weight loss journey and the cruise felt like the perfect opportunity. Later, Brilliant Lady sailed into Endicott Arm toward Dawes Glacier. The towering blue ice, drifting pieces of glacier, waterfalls spilling down the rocky cliffs, and harbor seals resting among the ice made the entire scene feel almost unreal. That evening we went to Test Kitchen, where science and cooking come together in a series of creative courses, unexpected flavors, smoke, and presentation. They truly put the test in Test Kitchen. To top everything off, I scored my first jackpot of the trip—a $2,690 win that made an already unforgettable day even more exciting.",
       tags:["Dawes Glacier","Endicott Arm","Cryotherapy","Harbor seals","Test Kitchen","Jackpot"],
       status:"published",
+      featured:false
+    },
+    {
+      meta:"DAY 6 • JULY 21, 2026",
+      title:"Prince Rupert, Rojo & Another Jackpot",
+      copy:"After several adventure-filled days, Day 6 offered a chance to slow down when Brilliant Lady arrived in Prince Rupert, British Columbia. The quiet waterfront town had a relaxed atmosphere, interesting memorials, and several local art shops to explore before heading back aboard. The rest of the afternoon was spent relaxing on the ship. Dinner that evening was at Rojo, where shrimp toast, a perfectly cooked steak, and a refreshing cocktail made for another memorable meal. Then it was time for the Vegas Matt group pull—and luck showed up again. I hit my second jackpot of the cruise for more than $3,500, then carried the momentum into an incredible run at the blackjack table. A calm port day turned into one of the luckiest nights of the entire trip.",
+      tags:["Prince Rupert","Rojo","Vegas Matt","Jackpot","Blackjack","British Columbia"],
+      status:"published",
       featured:true
     },
-    {meta:"DAY 6–8",title:"The story continues",copy:"Prince Rupert, the final sea day, and the journey home.",tags:["More ahead"],status:"pending"}
+    {meta:"DAY 7–8",title:"The story continues",copy:"The final sea day and the journey home.",tags:["More ahead"],status:"pending"}
   ],
 
   gallery: [
+    {image:"assets/photos/day6-jackpot.jpg",eyebrow:"Photo of the day",title:"The second jackpot of the cruise: more than $3,500",feature:true,wide:true},
+    {image:"assets/photos/day6-casino-chips.jpg",eyebrow:"Lucky night",title:"Casino chips ready for the Vegas Matt group pull"},
+    {image:"assets/photos/day6-prince-rupert-memorial.jpg",eyebrow:"Prince Rupert",title:"Pacific Mariners Memorial Park with Brilliant Lady in the background",wide:true},
+    {image:"assets/photos/day6-waterfront-flags.jpg",eyebrow:"Waterfront walk",title:"International flags along the Prince Rupert harbor",wide:true},
+    {image:"assets/photos/day6-rojo-shrimp.jpg",eyebrow:"Dinner at Rojo",title:"Shrimp toast to begin the evening"},
+    {image:"assets/photos/day6-rojo-steak.jpg",eyebrow:"Rojo",title:"A perfectly cooked steak for dinner",wide:true},
+    {image:"assets/photos/day6-rojo-cocktail.jpg",eyebrow:"Evening sip",title:"A refreshing cocktail at Rojo"},
     {image:"assets/photos/day5-dawes-glacier-wide.jpg",eyebrow:"Photo of the day",title:"Face to face with Dawes Glacier",feature:true,wide:true},
     {image:"assets/photos/day5-dawes-glacier-close.jpg",eyebrow:"Blue ice",title:"The fractured face of Dawes Glacier",wide:true},
     {image:"assets/photos/day5-waterfall.jpg",eyebrow:"Endicott Arm",title:"Glacial water cascading down the cliffs",wide:true},
