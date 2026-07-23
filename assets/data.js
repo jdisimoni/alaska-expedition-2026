@@ -4,19 +4,19 @@ window.TRIP_DATA = {
   currentDayOverride: null,
 
   stats: {
-    photos: 67,
+    photos: 75,
     videos: 0,
     milesTraveled: 0,
     wildlifeSightings: 4
   },
 
   featured: {
-    label: "DAY 6 • JULY 21",
-    title: "Prince Rupert, Rojo & Another Jackpot",
-    caption: "A quiet day exploring Prince Rupert’s waterfront and art shops turned into a memorable night aboard Brilliant Lady with dinner at Rojo, the Vegas Matt group pull, a second jackpot worth more than $3,500, and an incredible blackjack run.",
-    location: "Prince Rupert, British Columbia • Canada",
+    label: "DAY 7 • JULY 22",
+    title: "One Last Full Day Aboard Brilliant Lady",
+    caption: "A speed-puzzle challenge, Bingo with a Diva, a farewell cocktail party with the Vegas Matt crew, and one final winning run in the casino made the last full day aboard unforgettable.",
+    location: "At Sea • Brilliant Lady",
     camera: "iPhone 17 Pro Max",
-    image: "assets/photos/day6-jackpot.jpg"
+    image: "assets/photos/day7-vegas-matt-crew.jpg"
   },
 
   itinerary: [
@@ -27,7 +27,7 @@ window.TRIP_DATA = {
     {day:4,date:"JUL 19",title:"Sitka",copy:"Totem trails, the Alaska Raptor Center, and a wildlife-filled sea otter excursion with EJ and the Vegas Matt crew."},
     {day:5,date:"JUL 20",title:"Endicott Arm & Dawes Glacier",copy:"Cryotherapy, brilliant blue glacier ice, harbor seals, Test Kitchen, and a $2,690 jackpot."},
     {day:6,date:"JUL 21",title:"Prince Rupert",copy:"Waterfront views, local art shops, dinner at Rojo, the Vegas Matt group pull, a second jackpot worth more than $3,500, and an incredible blackjack run."},
-    {day:7,date:"JUL 22",title:"Final Sea Day",copy:"Favorite moments, final ship experiences, last-night energy, and reflection."},
+    {day:7,date:"JUL 22",title:"Final Sea Day",copy:"A speed-puzzle challenge, Bingo with a Diva, a farewell cocktail party with the Vegas Matt crew, and one last lucky night in the casino."},
     {day:8,date:"JUL 23",title:"Seattle → Home",copy:"Disembarkation, the journey home, and the beginning of the final travel journal."}
   ],
 
@@ -86,12 +86,28 @@ window.TRIP_DATA = {
       copy:"After several adventure-filled days, Day 6 offered a chance to slow down when Brilliant Lady arrived in Prince Rupert, British Columbia. The quiet waterfront town had a relaxed atmosphere, interesting memorials, and several local art shops to explore before heading back aboard. The rest of the afternoon was spent relaxing on the ship. Dinner that evening was at Rojo, where shrimp toast, a perfectly cooked steak, and a refreshing cocktail made for another memorable meal. Then it was time for the Vegas Matt group pull—and luck showed up again. I hit my second jackpot of the cruise for more than $3,500, then carried the momentum into an incredible run at the blackjack table. A calm port day turned into one of the luckiest nights of the entire trip.",
       tags:["Prince Rupert","Rojo","Vegas Matt","Jackpot","Blackjack","British Columbia"],
       status:"published",
+      featured:false
+    },
+    {
+      meta:"DAY 7 • JULY 22, 2026",
+      title:"One Last Full Day Aboard Brilliant Lady",
+      copy:"The final full day aboard Brilliant Lady arrived much sooner than I wanted, so we spent it enjoying the ship and making a few more memories before disembarkation. We entered a speed-puzzle challenge and, although we did not win, we were also the only team of two—so I think we held our own. Next came Bingo with a Diva, hosted by the Vegas Matt and Friends team, with plenty of laughs and over-the-top entertainment. Later, everyone gathered for a farewell cocktail party to say goodbye to Vegas Matt and the crew. It was bittersweet after sharing such an unforgettable week together. Of course, the night was not complete without one final visit to the casino, where my winning streak continued with two more big wins. I hate that the trip is wrapping up, but it has been an incredible adventure filled with great experiences, new friends, and memories I will carry home with me.",
+      tags:["Final sea day","Speed puzzle","Bingo with a Diva","Vegas Matt","Farewell party","Casino"],
+      status:"published",
       featured:true
     },
-    {meta:"DAY 7–8",title:"The story continues",copy:"The final sea day and the journey home.",tags:["More ahead"],status:"pending"}
+    {meta:"DAY 8 • JULY 23, 2026",title:"The journey home",copy:"Disembarkation, Seattle, and one final reflection on an unforgettable Alaska adventure.",tags:["Coming next"],status:"pending"}
   ],
 
   gallery: [
+    {image:"assets/photos/day7-vegas-matt-crew.jpg",eyebrow:"Photo of the day",title:"One final gathering with the Vegas Matt crew",feature:true,wide:true},
+    {image:"assets/photos/day7-speed-puzzle.jpg",eyebrow:"Speed puzzle challenge",title:"The only team of two—and we still held our own"},
+    {image:"assets/photos/day7-bingo-stage.jpg",eyebrow:"Bingo with a Diva",title:"A colorful start to the final day’s entertainment",wide:true},
+    {image:"assets/photos/day7-diva.jpg",eyebrow:"Bingo with a Diva",title:"Big energy, big laughs, and a fabulous host",wide:true},
+    {image:"assets/photos/day7-farewell-cocktails.jpg",eyebrow:"Farewell toast",title:"Cocktails before saying goodbye to an unforgettable crew"},
+    {image:"assets/photos/day7-vegas-matt-farewell.jpg",eyebrow:"Until next time",title:"Vegas Matt shares a few final words at sunset"},
+    {image:"assets/photos/day7-phoenix-jackpot-3340.jpg",eyebrow:"Winning streak",title:"A $3,340 casino win on the final night"},
+    {image:"assets/photos/day7-phoenix-jackpot-3390.jpg",eyebrow:"One more win",title:"The winning streak continues with another $3,390",wide:true},
     {image:"assets/photos/day6-jackpot.jpg",eyebrow:"Photo of the day",title:"The second jackpot of the cruise: more than $3,500",feature:true,wide:true},
     {image:"assets/photos/day6-casino-chips.jpg",eyebrow:"Blackjack hot streak",title:"The winnings after an incredible run at the blackjack table"},
     {image:"assets/photos/day6-prince-rupert-memorial.jpg",eyebrow:"Prince Rupert",title:"Pacific Mariners Memorial Park with Brilliant Lady in the background",wide:true},
